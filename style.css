@@ -1,0 +1,493 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: -apple-system;
+    /*background-color: beige;
+    color: darkgray;*/
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    /*background-image: url('mrb.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+header .blur-background {
+    backdrop-filter: blur(10px);
+}
+
+header .blur-background::before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    right: -20px;
+    bottom: -30px;
+    left: -20px;
+    background: inherit;
+    /*background-color: white;*/
+    filter: blur(10px);
+    z-index: -1;
+}
+
+/*header .mrbHidexImg {
+    right: 0;
+    left: 0;
+}*/
+
+header .mrbHidexImg img {
+    height: 560px;
+    width: 700px;
+    top: 0;
+    bottom: 0;
+    position: inherit;
+    float: right;
+    margin-top: -410px;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    /*border-bottom: 1px solid bisque;*/
+}
+
+img {
+    margin: 0;
+    width: 10%;
+    height: 10%;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+    margin-top: 55px;
+
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    margin-left: -15px;
+    margin-right: 20px;
+    top: -100px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 120px;
+}
+
+nav ul li:hover {
+    background-color: bisque;
+    transition: 1s;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+header p {
+    letter-spacing: 1px;
+    font-size: 26px;
+    width: 30%;
+    margin-left: 95px;
+    position: inherit;
+    margin-top: 280px;
+    color: black;
+    /*text-align: center;*/
+}
+
+header p bold {
+    font-weight: bold;
+    color: black;
+    font-size: 32px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: -10px;
+    color: black;
+    width: 50%;
+    /*-webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: grey;
+    letter-spacing: 1px;*/
+}
+
+header h1:hover {
+    color: bisque;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+header h3 {
+    color: black;
+    margin-top: -5px;
+    width: 20%;
+    margin-left: 95px;
+    font-size: 20px;
+}
+
+header button {
+    margin-left: 90px;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*border: 1px solid grey;*/
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+header button:hover {
+    color: black;
+    background-color: bisque;
+    transition: 1s;
+    border: 1px solid black;
+    /*border-radius: 10px;*/
+}
+
+
+main #about {
+    width: auto;
+    height: 670px;
+    text-align: center;
+    justify-items: center;
+    /*padding-top: 50px;*/
+    padding-top: 170px;
+    letter-spacing: 1px;
+    background-color: bisque;
+}
+
+main .aboutMeText {
+    text-align: center;
+    background-color: bisque;
+    width: 50%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 300px;
+    border-top: 10px solid black;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+main #resume {
+    width: auto;
+    height: 670px;
+    text-align: center;
+    justify-items: center;
+    /*padding-top: 50px;*/
+    padding-top: 180px;
+    letter-spacing: 1px;
+}
+
+main #resume p {
+    text-align: center;
+    /*background-color: bisque;*/
+    width: 50%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 300px;
+    border-top: 10px solid black;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+main #portfolio {
+    width: auto;
+    height: 670px;
+    text-align: center;
+    justify-items: center;
+    padding-top: 180px;
+    letter-spacing: 1px;
+    background-color: bisque;
+}
+
+main #portfolio p {
+    text-align: center;
+    /*background-color: bisque;*/
+    width: 50%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 300px;
+    border-top: 10px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: bisque;
+}
+
+main #testimonial {
+    width: auto;
+    height: 670px;
+    text-align: center;
+    justify-items: center;
+    padding-top: 180px;
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+main #testimonial p {
+    text-align: center;
+    /*background-color: bisque;*/
+    width: 50%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 300px;
+    border-top: 10px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: white;
+}
+
+main #contact {
+    width: auto;
+    height: 670px;
+    text-align: center;
+    justify-items: center;
+    padding-top: 180px;
+    letter-spacing: 1px;
+    background-color: bisque;
+}
+
+main #contact p {
+    text-align: center;
+    /*background-color: bisque;*/
+    
+    letter-spacing: 1px;
+    margin-left: 190px;
+    margin-right: 150px;
+
+    /*border-top: 10px solid black;
+    border-radius: 20px;*/
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: bisque;
+    /*padding-top: 20px;*/
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: red;
+    display: inline;
+}
+
+main #contact li img {
+    height: 25px;
+    width: 25px;
+}
+
+main #contact li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    color: grey;
+}
+
+main section h2 {
+    line-height: 36px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid rgb(202, 201, 201);
+}
+
+footer p {
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+
+
+
+/*header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    margin: 4rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background:  #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+*/
+
+/* Responsive styles */
+/*@media (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    main {
+        margin: 1rem;
+    }
+
+footer {
+    position: relative;
+    }
+}*/
